@@ -1,6 +1,5 @@
 const toggleButton = document.getElementById('toggleMode');
 
-        // Initialize the theme
         document.body.classList.add('light-mode');
         toggleButton.textContent = "Dark Mode";
 
@@ -9,11 +8,11 @@ const toggleButton = document.getElementById('toggleMode');
                 // Switch to Dark Mode
                 document.body.classList.remove('light-mode');
                 document.body.classList.add('dark-mode');
-                toggleButton.textContent = "Light Mode"; // Update button text
+                toggleButton.textContent = "Light Mode";
             } else {
                 // Switch to Light Mode
                 document.body.classList.remove('dark-mode');
                 document.body.classList.add('light-mode');
-                toggleButton.textContent = "Dark Mode"; // Update button text
+                toggleButton.textContent = "Dark Mode";
             }
         });
