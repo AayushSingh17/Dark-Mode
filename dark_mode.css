@@ -1,0 +1,20 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    text-align: center;
+}
+
+#toggleMode {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 90px;
+    padding: 10px 20px;
+}
